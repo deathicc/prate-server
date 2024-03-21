@@ -75,7 +75,7 @@ const server = new ApolloServer({
   ],
 });
 
-app.use(VerifyToken);
+// app.use(VerifyToken);
 
 httpServer.listen(PORT, async () => {
   await server.start()
